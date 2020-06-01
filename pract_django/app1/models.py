@@ -9,3 +9,4 @@ class Destination:
     price = int
     desc = str
     image = str
+    offr = bool
