@@ -13,7 +13,7 @@ def index(request):
     dest2 = Destination()
     dest2.name = 'mumbai'
     dest2.price = 1000
-    dest2.desc = 'Cheap logonka residence'
+    dest2.desc = 'Cheap logonka residences'
     dest2.image = 'destination_2.jpg'
 
     dest3 = Destination()
