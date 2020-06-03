@@ -254,7 +254,7 @@
 						{% for dest in dests %}
 						<div class="destination item">
 							<div class="destination_image">
-								<img src="{{baseUrl}}/{{dest.image}}" alt="">
+								<img src="{{dest.image.url}}" alt="">
 								{% if dest.offr %}
 								<div class="spec_offer text-center"><a href="#">Special Offer</a></div>
 								{% endif %}
